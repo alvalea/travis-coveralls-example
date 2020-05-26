@@ -28,6 +28,7 @@
   "author": "Olle Lauri Boström <ollebostr@gmail.com> (https://github.com/ollelauribostrom)",
   "license": "MIT",
   "jest": {
-    "coverageDirectory": "<rootDir>/tests/coverage"
+    "coverageDirectory": "<rootDir>/tests/coverage",
+    "testURL": "http://localhost/"
   }
 }
