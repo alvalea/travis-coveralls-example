@@ -29,3 +29,4 @@ Add Coveralls command to .travis.yml
 Configurations
 -------------
 The above steps automatically integrates Coveralls in the Travis CI build. Further configurations are possible under the "PULL REQUESTS ALERTS" section in the repo settings at coveralls.io.
+
