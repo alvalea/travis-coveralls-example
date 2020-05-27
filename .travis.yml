@@ -1,19 +1,10 @@
-sudo: false
-language: node_js
-node_js:
-- '8'
-branches:
-  only:
-  - master
-cache:
-  directories:
-  - node_modules
-before_install:
-- npm update
+language:
+  node_js
 install:
-- npm install
+  - npm install -g codecov
 script:
-- npm test
-- npm run coveralls
+  - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
+  - jest
+  - codecov
 notifications:
 - email: false
