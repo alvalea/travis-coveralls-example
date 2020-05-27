@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/alvalea/travis-coveralls-example.svg?branch=master)](https://travis-ci.org/alvalea/travis-coveralls-example)
+[![Coverage Status](https://coveralls.io/repos/github/alvalea/travis-coveralls-example/badge.svg?branch=master)](https://coveralls.io/github/alvalea/travis-coveralls-example?branch=master)
+
 # Travis Coveralls Example
 Example repo for including Coveralls in Travis CI build process. (Using jest to run tests)
 
