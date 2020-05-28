@@ -2,9 +2,7 @@ language:
   node_js
 install:
   - npm install -g codecov
-  - npm install istanbul --save-dev
 script:
-  - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
   - jest
   - codecov
 notifications:

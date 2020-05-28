@@ -1,7 +1,7 @@
 {
   "name": "my-project",
   "jest": {
-    "coverageDirectory": "./coverage/",
-    "collectCoverage": true
+    "collectCoverage": true,
+    "coverageDirectory": "./coverage/"
   }
 }
